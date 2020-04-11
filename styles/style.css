@@ -1,0 +1,53 @@
+html {
+  font-size: 15px; /* px means "pixels": the base font size is now 15 pixels high  */
+  font-family: 'arial', sans-serif; /* this should be the rest of the output you got from Google fonts */
+  background-color:white;
+}
+a {
+  color: inherit;
+}
+a:hover, a:active {
+  text-decoration: underline !important;
+}
+p {
+  font-size: 15px;      
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+.GreyBlock {
+  color: rgba(0,0,0,.54);
+  line-height: 40px;
+}
+button {
+  color: rgba(0,0,0,.54);
+  height: 36px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  padding: 0 16px 0 16px;
+}
+#SignIn {
+  background-color: rgb(67, 135, 253);
+  color: white;  
+  padding: 0 12px 0 12px;
+  position: absolute; 
+  top: 1%; 
+  left: 93%;
+}
+#Squares { 
+  position: absolute; 
+  top: 2%; 
+  left: 89%;
+}
+.SearchBar {
+  border-radius: 10%;
+  width: 450px;
+  height: 40px;
+  position: absolute; 
+  top: 52%; 
+  left: 34%;
+}
