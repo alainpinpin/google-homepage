@@ -37,7 +37,6 @@ footer {
    position:absolute;
    bottom:0;   			/*mettre au bas completement*/
    width:100%;			/*Toute la largeur du browser*/
-   height:100px;
    background:#F0F0F0;   /*couleur grise qui remplie*/
    font-size: 10pt;
    height: 25px;
@@ -49,7 +48,6 @@ footer {
 #OverFooter {
    position:absolute;
    width:100%;
-   height:100px;
    background:#F0F0F0;   
    font-size: 10pt;
    height: 25px;
