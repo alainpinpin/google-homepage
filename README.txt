@@ -1,4 +1,4 @@
-Page copie de Google selon The Odin Project dans le cadre du cours réseautique par Alexandre Alain:
+Page copie de Google (version anglaise pas de compte logged in) selon The Odin Project dans le cadre du cours Éléments de Réseautique par Alexandre Alain:
 
 Special features : 
 -L'onglet possède une image du G de Google ainsi que le nom Google AA;
