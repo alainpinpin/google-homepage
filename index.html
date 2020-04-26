@@ -4,17 +4,37 @@
     <meta charset="utf-8">
     <!--<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> -->
     <title>Google AA</title>
+	<link rel="shortcut icon" type="image/png" href="images/tabicon.png">
     <link href="styles/style.css" rel="stylesheet">
-  </head>
-  <body>    
-    <div style="float: left;"><p style="text-align: left; font-size: 13px;"><a href="https://about.google/?fg=1&amp;utm_source=google-CA&amp;utm_medium=referral&amp;utm_campaign=hp-header"  style="text-decoration:none">About</a> &nbsp;&nbsp;&nbsp;   
-    <a href="https://store.google.com/CA?utm_source=hp_header&amp;utm_medium=google_ooo&amp;utm_campaign=GS100042&amp;hl=en-CA" style="text-decoration:none">Store</a></p> </div>
-    <div style="float: right; margin-right: auto;"><p style="margin-right: 140px; font-size: 13px; "><a href="https://mail.google.com/mail/?tab=wm&amp;ogbl" style="text-decoration:none">Gmail</a> &nbsp;&nbsp;&nbsp;   
-    <a href="https://www.google.ca/imghp?hl=en&amp;tab=wi&amp;ogbl" style="text-decoration:none">Images</a></p>&nbsp;&nbsp;&nbsp;<img id="Squares" style="height: 24px; width: 24px;" src="images/9squares.png" alt="Les 9 points pour les les autres app. de Google">&nbsp;&nbsp;&nbsp;<button id="SignIn"><b>Sign In</b></button></button></div>
-    <img style="position: absolute; top: 35%; left: 36%;" src="images/GoogleLogo.png" alt="Logo de Google"> 
-    <form action="https://www.google.com/search" method="GET"><input type="text" name="q" class="SearchBar"></form>
-    <div style="position: absolute; top: 60%; left: 41%;"><button class="bouttons" type="submit"><b>Google Search</b></button> &nbsp; <button class="bouttons"><b>I'm Feeling Lucky</b></button></div>
-    <p style="position: absolute; top: 65%; left: 45%;">Google offered in : <a style="color: blue;">Français</a></p>
-    <!--<script src="scripts/main.js"></script> -->
+  </head>  
+  <header>
+	<ul class="UpperLinks">
+		<li id="righties" style="margin-right:10px"><button id="SignIn"><b>Sign In</b></button></li>
+		<li id="righties" style="margin-right:10px; margin-top:7px;"><img style="height: 20px; width: 20px;" src="images/9squares.png" alt="Les 9 points pour les autres app. de Google"></li>
+	    <li id="righties" style="margin-right:10px"><a href="https://www.google.ca/imghp?hl=en&amp;tab=wi&amp;ogbl">Images</a></li>
+		<li id="righties" style="margin-right:10px"><a href="https://mail.google.com/mail/?tab=wm&amp;ogbl">Gmail</a></li>
+		<li id="lefties" style="margin-left:10px"><a href="https://about.google/?fg=1&amp;utm_source=google-CA&amp;utm_medium=referral&amp;utm_campaign=hp-header">About</a></li>
+		<li id="lefties" style="margin-left:20px"><a href="https://store.google.com/CA?utm_source=hp_header&amp;utm_medium=google_ooo&amp;utm_campaign=GS100042&amp;hl=en-CA">Store</a></li>
+	</ul>
+  </header>
+  <body>   
+	  <img id="LogoGoogle" src="images/GoogleLogo.png" alt="Logo de Google"> 
+	  <form><input type="text" class="SearchBar"></form>
+	  <div id="bouttonsUnderSearch" align="center"><button type="submit">Google Search</button> &nbsp; <button>I'm Feeling Lucky</button></div>
+	  <p align="center">Google offered in : <a style="color: blue;">Français</a></p>
+	  
+	  <div id="OverFooter">
+		<p style="margin-top: 1px; padding-left:10px;">Canada</p>	  
+	  </div>
   </body>
+  <footer>
+    <ul class="BottomLinks">
+		<li id="righties" style="margin-right:18px"><a href="https://www.google.com/preferences?hl=en-CA&fg=1">Settings</a></li>
+		<li id="righties" style="margin-right:10px"><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+		<li id="righties" style="margin-right:10px"><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
+		<li id="lefties" style="margin-left:10px"><a href="https://ads.google.com/intl/en_ca/home/">Advertising</a></li>
+		<li id="lefties" style="margin-left:20px"><a href="https://smallbusiness.withgoogle.com/intl/en_ca/">Business</a></li>
+		<li id="lefties" style="margin-left:20px"><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+	</ul>
+  </footer>
 </html> 

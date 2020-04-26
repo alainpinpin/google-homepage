@@ -1,53 +1,135 @@
 html {
-  font-size: 15px; /* px means "pixels": the base font size is now 15 pixels high  */
+  font-size: 13px; /* px means "pixels": the base font size is now 15 pixels high  */
   font-family: 'arial', sans-serif; /* this should be the rest of the output you got from Google fonts */
   background-color:white;
 }
 a {
   color: inherit;
+  text-decoration:none;
 }
 a:hover, a:active {
   text-decoration: underline !important;
 }
 p {
-  font-size: 15px;      
+  display: block;  
+  margin-top: 15px;  
+} 
+/*
+input[type=text]:focus {
+  border: 0px solid #FFFFFF;
+}
+*/
+input[type=text] {
+  background-color: white;
+  background-image: url("https://img.icons8.com/ios/24/000000/search--v1.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  font-size: 17px;
+  outline: none;
 }
 
-img{
-  display: block;
-  margin: 0 auto;
-  width: 400px;
+
+header { 
+  height: 50px;
+  line-height: 50px;
 }
-.GreyBlock {
-  color: rgba(0,0,0,.54);
-  line-height: 40px;
+
+footer {
+   position:absolute;
+   bottom:0;   			/* Height of the footer mettre au bas completement*/
+   width:100%;			/*Toute la largeur du browser*/
+   height:100px;   /* Height of the footer */
+   background:#F0F0F0;   /*couleur grise qui remplie*/
+   font-size: 10pt;
+   height: 25px;
+   padding-top: 15px;
+   color: #888888;
+   border-top: 1px solid #ddd;
 }
+
+#OverFooter {
+   position:absolute;
+   width:100%;
+   height:100px;
+   background:#F0F0F0;   
+   font-size: 10pt;
+   height: 25px;
+   color: #888888;
+   border-top: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+   padding-top: 15px;
+   padding-bottom: 5px;
+   bottom:40px;
+}
+
+#LogoGoogle{
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 300px; /* width:300px; ou  width:25%; pour resizing*/*/
+}
+
 button {
-  color: rgba(0,0,0,.54);
+  color: #444;
   height: 36px;
   line-height: 27px;
   min-width: 54px;
   text-align: center;
   padding: 0 16px 0 16px;
+  border: 1px solid #f0f0f0;
+  border-radius:5px;
 }
+button:hover {	
+	border: 1px solid #bbb;
+}
+
+#bouttonsUnderSearch {    
+  margin-top: 20px;
+}
+
 #SignIn {
-  background-color: rgb(67, 135, 253);
+  background-color: rgb(66, 133, 244);
   color: white;  
   padding: 0 12px 0 12px;
-  position: absolute; 
-  top: 1%; 
-  left: 93%;
-}
-#Squares { 
-  position: absolute; 
-  top: 2%; 
-  left: 89%;
-}
-.SearchBar {
+  margin-right: 0px; 
   border-radius: 10%;
-  width: 450px;
-  height: 40px;
-  position: absolute; 
-  top: 52%; 
-  left: 34%;
 }
+
+#SignIn:hover {
+  border: 1px solid #fff;	
+}
+
+.SearchBar {
+  display: block;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  width: 400px; /*width: 400px; ou  width:38%; pour resizing*/
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.UpperLinks  {
+	display: inline;
+	text-decoration: none;
+	padding-top: 100px;
+}
+
+.BottomLinks  {
+	display: inline;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+
+#lefties {
+	float: left;
+	display: inline-block;
+}
+
+#righties {
+	float: right;
+	display: inline-block;
+	}
